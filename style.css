@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
+    text-decoration: none;
 }
 
 html { scroll-behavior: smooth; }
@@ -109,8 +110,14 @@ header{
     text-align: center;
     padding: 0 15px;
     font-weight: 400;
+    text-decoration: none;
 }
 
 section {
     padding: 5rem 2rem;
+}
+
+.tool, .tool:visited {
+    color: inherit;
+    text-decoration: none;
 }
